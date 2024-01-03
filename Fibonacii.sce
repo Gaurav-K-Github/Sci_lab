@@ -10,7 +10,7 @@ function fibonacci_series(n)
     end
 endfunction
 
-% Set the number of terms you want in the series
+% Set the number of terms you want in
 n = 10;
 
 % Call the function to print the Fibonacci series
