@@ -8,17 +8,17 @@ disp(A);
 disp("Matrix B:");
 disp(B);
 
-% Matrix Addition
+// Matrix Addition
 C_addition = A + B;
 disp("Matrix Addition (A + B):");
 disp(C_addition);
 
-% Matrix Subtraction
+// Matrix Subtraction
 C_subtraction = A - B;
 disp("Matrix Subtraction (A - B):");
 disp(C_subtraction);
 
-% Matrix Multiplication
+// Matrix Multiplication
 C_multiplication = A * B;
 disp("Matrix Multiplication (A * B):");
 disp(C_multiplication);
