@@ -23,7 +23,7 @@ C_multiplication = A * B;
 disp("Matrix Multiplication (A * B):");
 disp(C_multiplication);
 
-% Transpose of Matrix A
+// Transpose of Matrix A
 A_transpose = A';
 disp("Transpose of Matrix A:");
 disp(A_transpose);
