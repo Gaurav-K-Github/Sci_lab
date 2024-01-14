@@ -15,10 +15,10 @@ z = c * sinh(U);
 figure();
 surf(x, y, z, style = 5);
 
-// Customize the plot
+// Display the plot
 xlabel('X-axis');
 ylabel('Y-axis');
 zlabel('Z-axis');
 title('Hyperboloid');
 
-// Display the plot
+
