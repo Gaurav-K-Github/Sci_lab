@@ -13,12 +13,10 @@ z = c * sinh(U);
 
 // Create a 3D plot
 figure();
-surf(x, y, z, style = 5);
+surf(x, y, z);
 
 // Display the plot
 xlabel('X-axis');
 ylabel('Y-axis');
 zlabel('Z-axis');
 title('Hyperboloid');
-
-
