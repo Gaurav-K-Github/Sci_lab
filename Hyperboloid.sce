@@ -13,7 +13,7 @@ z = c * sinh(U);
 
 // Create a 3D plot
 figure();
-plot3d(x, y, z, style = 5);
+surf(x, y, z, style = 5);
 
 // Customize the plot
 xlabel('X-axis');
