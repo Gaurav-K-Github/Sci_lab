@@ -1,4 +1,3 @@
-function y=fibonacci (N)
     y (1)=0;
     y (2)=1;
     for i=3:N
