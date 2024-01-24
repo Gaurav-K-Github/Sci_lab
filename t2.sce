@@ -1,14 +1,8 @@
-clc
-a=input("Enter 1st no:")
-b=input("Enter 2nd no")
-c=0
-disp(a)
-disp(b)
-for (z=1:50)
-     c=a
-     a=b
-     b=a+c
-    disp(b)
-    
-    
-end
+function y=fibonacci (N)
+    y (1)=0;
+    y (2)=1;
+    for i=3:N
+        y (i)=y (i-1)+y (i-2);
+    end
+    y=y';
+endfunction
