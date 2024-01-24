@@ -1,7 +1,10 @@
-    y (1)=0;
-    y (2)=1;
-    for i=3:N
-        y (i)=y (i-1)+y (i-2);
-    end
-    y=y';
-endfunction
+N=input("Enter a number:")
+a=0;
+b=1;
+c=0;
+for i=0:N
+    disp(a);
+    c=a+b;
+    a=b;
+    b=c;
+end
